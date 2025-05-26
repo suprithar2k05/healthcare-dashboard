@@ -1,0 +1,41 @@
+.sidebar {
+   width: 240px;
+   background-color: white;
+   padding: 2rem 1rem;
+   border-right: 1px solid #e6e9f0;
+ }
+ 
+ .logo {
+   font-size: 1.4rem;
+   font-weight: 700;
+   margin-bottom: 2rem;
+ }
+ 
+ .logo .highlight {
+   color: #27c1f3;
+ }
+ 
+ .section-title {
+   font-size: 0.9rem;
+   color: #888;
+   margin-bottom: 1rem;
+ }
+ 
+ .nav-list {
+   list-style: none;
+   padding: 0;
+ }
+ 
+ .nav-item {
+   display: flex;
+   align-items: center;
+   gap: 12px;
+   margin-bottom: 1rem;
+   cursor: pointer;
+ }
+ 
+ .nav-icon {
+   width: 20px;
+   height: 20px;
+ }
+ 

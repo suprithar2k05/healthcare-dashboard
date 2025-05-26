@@ -1,0 +1,15 @@
+.upcoming-schedule {
+   background: #fff;
+   border-radius: 16px;
+   padding: 1rem;
+   box-shadow: 0 0 10px rgba(0,0,0,0.05);
+ }
+ 
+ .schedule-day {
+   margin-top: 1rem;
+ }
+ 
+ .schedule-day h4 {
+   margin-bottom: 0.5rem;
+ }
+ 

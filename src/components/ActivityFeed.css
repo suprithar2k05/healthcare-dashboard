@@ -1,0 +1,33 @@
+.activity-feed {
+   background: #fff;
+   border-radius: 16px;
+   padding: 1rem;
+   box-shadow: 0 0 10px rgba(0,0,0,0.05);
+ }
+ 
+ .subtitle {
+   font-size: 0.9rem;
+   color: #888;
+   margin-bottom: 1rem;
+ }
+ 
+ .bar-chart {
+   display: flex;
+   align-items: flex-end;
+   justify-content: space-between;
+ }
+ 
+ .bar {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 0.3rem;
+ }
+ 
+ .bar-inner {
+   width: 8px;
+   background-color: #4a3aff;
+   border-radius: 4px;
+   transition: height 0.3s;
+ }
+ 

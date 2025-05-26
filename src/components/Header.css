@@ -1,0 +1,43 @@
+.dashboard-header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1rem 0;
+   border-bottom: 1px solid #e6e9f0;
+ }
+ 
+ .search-input {
+   padding: 0.5rem 1rem;
+   width: 250px;
+   border: 1px solid #ddd;
+   border-radius: 999px;
+   outline: none;
+ }
+ 
+ .header-actions {
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+ }
+ 
+ .icon {
+   width: 20px;
+ }
+ 
+ .avatar {
+   width: 32px;
+   height: 32px;
+   border-radius: 50%;
+ }
+ 
+ .add-button {
+   background-color: #5d5fef;
+   color: white;
+   border: none;
+   border-radius: 50%;
+   width: 32px;
+   height: 32px;
+   font-size: 1.5rem;
+   cursor: pointer;
+ }
+ 
