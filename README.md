@@ -1,12 +1,76 @@
-# React + Vite
+# 🏥 Healthcare Dashboard UI (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A pixel-perfect, responsive Healthcare Dashboard built with React. This project is a static mock implementation featuring a sidebar, header, anatomy section, calendar, health indicators, activity chart, and schedule cards — all designed to match a given UI image **exactly**.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React** (via Vite or Create React App)
+- **CSS Modules** / Plain CSS for styling
+- **Responsive Layouts** with Flexbox, CSS Grid, and Media Queries
+- **Static Assets** and **Mock Data** only (no API integration or state management)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Installation & Setup
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/your-username/healthcare-dashboard.git
+cd healthcare-dashboard
+```
+
+2. **Install dependencies**
+```bash
+npm install
+```
+
+3. **Run the app**
+```bash
+npm run dev
+```
+
+## 🧩 Components Breakdown 
+✅ App.jsx
+Root layout using Flexbox/Grid — renders <Header /> <Sidebar /> and <DashboardMainContent />.
+
+✅ Header/
+Logo (Healthcare.)
+
+Search Bar (display only)
+
+Notification bell icon (bell.svg)
+
+User Avatar (avatar.png)
+
+Add button (display only)
+
+✅ Sidebar/
+"General" section
+
+Navigation links (static)
+
+✅ DashboardMainContent/
+Holds all main content components:
+
+DashboardOverview/
+
+AnatomySection/ (uses body.png with overlaid indicators)
+
+HealthStatusCards/ (lungs.svg, teeth.svg, bone.svg)
+
+CalendarView/ (static grid and appointments)
+
+UpcomingSchedule/ (uses SimpleAppointmentCard)
+
+ActivityFeed/ (static chart using CSS bars)
+
+✅ SimpleAppointmentCard/
+Reusable mini-card with:
+
+Title
+
+Time
+
+Icon/Indicator
